@@ -3,6 +3,7 @@
 [features]
 resolution = true
 skip-lint = false
+seeds = false
 
 [programs.localnet]
 nft = "4kwcURKome7NkYanznMuPV7M3qZbin67qb2YD4tZBzKA"
