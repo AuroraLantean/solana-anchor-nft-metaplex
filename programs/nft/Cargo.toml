@@ -19,4 +19,5 @@ idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
 [dependencies]
 anchor-lang = { version = "0.30.1", features = ["init-if-needed"] }
 anchor-spl = { version = "0.30.1", features = ["metadata"] }
-mpl-token-metadata = "4.1.2"
+#mpl-token-metadata = "4.1.2"
+#removing the mpl-token-metadata dependency to reduce the possibility of having conflicting versions:
